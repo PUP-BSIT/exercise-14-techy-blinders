@@ -89,7 +89,7 @@ searchButton.addEventListener("click", () => {
     })
     .catch((error) => {
       console.error(error);
-      displayResult.innerHTML = `Country not found. Please enter a 
+      displayResult.innerHTML = `Country not found. Please enter a
         valid country name.`;
     });
 });
