@@ -242,7 +242,7 @@ body {
 }
 
 .flag {
-    width: 250px;
+    width: 20%;
     margin-top: 10px;
 	border-radius: 20px;
 }
@@ -298,6 +298,16 @@ body {
 		width: 105%;
 		margin-left: -1%;
 	}
+
+	#country_button {
+		width: 100%;
+		margin-left: auto;
+	}
+
+	.flag {
+		width: 90%;
+		margin-top: 5px;
+	}
 }
 
 @media (min-width: 321px) and (max-width: 375px) {
@@ -338,6 +348,16 @@ body {
 		width: 105%;
 		margin-left: -1%;
 	}
+
+	#country_button {
+		width: 100%;
+		margin-left: auto;
+	}
+
+	.flag {
+		width: 90%;
+		margin-top: 5px;
+	}
 }
 
 @media (min-width: 376px) and (max-width: 425px) {
@@ -377,5 +397,15 @@ body {
 	#comment_button, .ascending-button, .descending-button {
 		width: 105%;
 		margin-left: -1%;
+	}
+
+	#country_button {
+		width: 100%;
+		margin-left: auto;
+	}
+
+	.flag {
+		width: 90%;
+		margin-top: 5px;
 	}
 }
