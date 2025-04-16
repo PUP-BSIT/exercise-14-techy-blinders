@@ -18,8 +18,8 @@ body {
   left: 50%;
   border-radius: 1em;
   box-shadow: 0 1.25em 1.8em rgba(8, 21, 65, 0.25);
-  width: 90%;
-  max-width: 600px;
+  width: 95%;
+  max-width: 700px;
   max-height: 90vh;
   overflow-y: auto;
 }
@@ -146,4 +146,85 @@ body {
 
 #paragraph_section p {
   font-weight: 800;
+}
+
+@media (max-width: 320px) {
+  .container {
+    padding: 1em;
+    width: 95%;
+  }
+
+  .container h1 {
+    font-size: 1.3rem;
+  }
+
+  .search-container {
+    grid-template-columns: 1fr;
+  }
+
+  .region-country {
+    width: 80px;
+  }
+
+  .small-flag {
+    width: 50px;
+    height: 30px;
+  }
+
+  .container h2 {
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+  }
+
+  .container h3 {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 375px) {
+  .container {
+    padding: 1.8em;
+    width: 95%;
+  }
+
+  .container h1 {
+    font-size: 1.4rem;
+  }
+
+  .search-container {
+    grid-template-columns: 2fr 1fr;
+  }
+
+  .region-country {
+    width: 85px;
+  }
+
+  .container h2 {
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 376px) and (max-width: 425px) {
+  .container {
+    padding: 2em;
+    width: 92%;
+  }
+
+  .container h1 {
+    font-size: 1.5rem;
+  }
+
+  .search-container {
+    grid-template-columns: 7fr 3fr;
+  }
+
+  .region-country {
+    width: 90px;
+  }
+
+  .search-container input, 
+  .search-container button {
+    font-size: 0.9em;
+    padding: 0.8em;
+  }
 }
